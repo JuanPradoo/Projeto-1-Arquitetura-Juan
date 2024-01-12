@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+ #Titulo-menusuperior{
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 50px;
+ }
+ #subtitulo-menusuperior{
+    margin-top: 10px;
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 17.5px;
+ }
+ #menu-superior{
+    color: #fff;
+    background-color: #303030;
+    padding-bottom: 90px;
+    padding-top: 90px;
+ }
+ #menu-informacional{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+    padding-left: 68px;
+ }
+ .textoinformativo{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-left: 50px;
+    color: #000;
+    font-weight: 600;
+    font-size: 15px;
+ }
+ #ultimonumero{
+   padding-right: 100px;
+  
+ }
+ .fonte-numeromaior{
+    font-size: 32px;
+ }
+ #seçao-foto{
+    background-color: #fff;
+    color: #000;
+    margin-top: 70px;
+    margin-left: 50px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+ }
+ #titulo-seçaofoto{
+   font-size: 25px;
+   margin-top: 149px;
+   margin-right: 30px;
+   font-weight: 600;
+ }
+ #texto-seçaofoto{
+   font-size: 15px;
+   margin-top: 30px;
+ }
+ #fotosala{
+   margin-bottom: 70px;
+   margin-right: 50px;
+ }
+ #formulario{
+   background-color: #303030;
+   text-align: center;
+ }
+ #titulo-formulario{
+   padding-top: 50px;
+   color: #fff;
+   font-size: 23px;
+   font-weight: 600;
+   padding-bottom: 20px;
+ }
+ input{
+   width: 300px;
+   height: 40px;
+   background-color: #EAECE5;
+   margin: 20px;
+   border: 0px;
+   border-radius: 6px;
+   padding-left: 15px;
+   outline: none;
+ }
+ button{
+   background-color: #C07212;
+   color: #fff;
+   width: 150px;
+   height: 40px;
+   margin: 20px;
+   border: 0px;
+   border-radius: 6px;
+   padding-left: 15px;
+   margin-bottom: 50px;
+   font-weight:600;
+   cursor: pointer; 
+ }
+ button:hover{
+   background-color: #963e04d3;
+   color: white;
+   transform: translateY(-7px);
+   box-shadow: 0px 15px 20px #251501bb ;
+   transition-duration: 0.5s;
+ }
